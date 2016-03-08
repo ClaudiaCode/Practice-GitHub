@@ -66,9 +66,22 @@ class Person
 	end
 end	
 
-person1 = Person.new("Jared", "Gray", "male", 14)
-person2 = Person.new("Megan", "Jacksen", "female", 21)
+# person1 = Person.new("Jared", "Gray", "male", 14)
+# person2 = Person.new("Megan", "Jacksen", "female", 21)
 
-# puts person1.drinking_age
+# # puts person1.drinking_age
 
-puts person1.driving_age
+# puts person1.driving_age
+
+
+class Student < Person
+	def learning
+		puts "#{@first_name} is learning"
+	end
+end
+	
+student1 = Student.new("Cristiano", "Ronaldo", "male", 30)
+
+puts student1.learning
+puts student1.introduction
+
