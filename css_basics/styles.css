@@ -1,0 +1,22 @@
+* {
+	/*background-color: blue;*/
+}
+
+a{
+	text-decoration: none;
+}
+
+.class_test p {
+	color: red;
+	font-family: Arial;
+	font-size: 70px;
+	background-color: yellow;
+}
+
+#id_test, #id_test2 {
+	font-size: 30px;
+}
+
+#id_test2{
+	background-color: pink;
+}
