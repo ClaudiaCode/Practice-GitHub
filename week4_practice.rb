@@ -29,3 +29,29 @@
 
 # number_check([1,2,3,4,5,6,7,30,78,98])
 
+
+# Wednesday
+
+# Create a method called area that takes in two argument - integers
+# Then display the answer in this format: "The area is ____"
+
+# def area(length,width)
+# 	new_area = length * width
+# 	puts "The area is #{new_area}"
+# end
+
+# area(10, 9)
+# area (3, 11)
+
+# def perimeter(length, width)
+# 	new_perimeter = (2 * length + 2 * width)
+# 	puts "The perimeter is #{new_perimeter}"
+# 	end
+
+# perimeter(9,3)
+
+
+# Bootstrap
+
+
+
